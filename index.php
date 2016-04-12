@@ -7,6 +7,7 @@ include "include.php";
     <?php 	include 'com/header'.$ln.'.htm'; ?>
 </head>
 
+
 <body id="home">
 
  <?php
