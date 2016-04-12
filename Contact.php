@@ -2,7 +2,7 @@
 <!doctype html>
 <head>
     <title>UPLIGHT</title>
-   <?php 	include "com/header.htm"; ?>
+   <?php 	include 'com/header'.$ln.'.htm'; ?>
 </head>
 <body>
 <?php
@@ -17,7 +17,7 @@ include2('com/carusel'.$ln.'.htm');
 	 include2('com/contact-form'.$ln.'.htm');
      ?>
 </div>
-<?php include2('com/footer.htm'); ?>
+<?php include2('com/footer'.$ln.'.htm'); ?>
 
 </body>
 </html>

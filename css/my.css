@@ -5,7 +5,17 @@
 }
 .brand{
     background-color: #86b300 !important;
+    color: white;
 
+}
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+.text-primary{
+    color: #527200;
 }
 .hidden{
     display: none;

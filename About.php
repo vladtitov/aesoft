@@ -2,7 +2,7 @@
 <!doctype html>
 <head>
     <title>UPLIGHT About us</title>
-    <?php 	include "com/header.htm"; ?>
+    <?php 	include 'com/header'.$ln.'.htm'; ?>
 </head>
 <body>
 <?php
