@@ -8,16 +8,7 @@ include "include.php";
 </head>
 
 <body id="home">
-<style>
-#btnSave{
-	position:fixed;
-	left:100px;
-	top:100px;
-	z-index:1000;
-}
-</style>
-<button id="btnSave" class="btn btn-success">Save </button>
-   
+
  <?php
   	include2('com/nav'.$ln.'.htm');
 	include2('com/carusel'.$ln.'.htm');
