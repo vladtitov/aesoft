@@ -1,0 +1,49 @@
+<style>
+    .controls>h3{
+        display: inline;
+        color: red;
+    }
+    .error.msg{
+        color: red;
+    }
+</style>
+
+<div class="row" role="form" id="Contact-Form">
+        <div class="col-md-8">
+            <h3 id="formtitle">
+                Послать сообщение           </h3>
+            <form name="sentMessage" id="contactForm" novalidate="">
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Имя:</label>
+                        <h3>*</h3>
+                       <input type="text" class="form-control" id="name">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Телефон:</label>
+                        <input type="tel" class="form-control" id="phone">
+                    </div>
+                </div>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Email:</label>
+                        <h3>*</h3>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                </div>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Текст:</label>
+                        <textarea rows="10" cols="100" class="form-control" id="message" maxlength="999" style="resize:none"></textarea>
+                    </div>
+                </div>
+                <div id="success"></div>
+                <!-- For success/fail messages -->
+                <button type="submit" onclick="return false;" class="btn btn-primary"> Послать сообщение</button>
+            </form>
+        </div>
+        <script src="js/ContactForm.js"></script>
+</div>
