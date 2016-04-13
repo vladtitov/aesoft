@@ -3,7 +3,7 @@ include "include.php";
 ?>
 <!doctype html>
 <head>
-<title>UPLIGHT | Mobile Applications | Kiosk Software | CMS | Web Applications </title>
+<title>AEsoftware | Mobile Applications | Kiosk Software | CMS | Web Applications </title>
     <?php 	include 'com/header'.$ln.'.htm'; ?>
 </head>
 

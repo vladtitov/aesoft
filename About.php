@@ -1,7 +1,7 @@
 <?php 	include "include.php"; ?>
 <!doctype html>
 <head>
-    <title>UPLIGHT About us</title>
+    <title>AEsoftware About us</title>
     <?php 	include 'com/header'.$ln.'.htm'; ?>
 </head>
 <body>
